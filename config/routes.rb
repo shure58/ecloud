@@ -51,7 +51,7 @@ Ecloud::Application.routes.draw do
   #   end
 
   # You can have the root of your site routed with "root"
-  # just remember to delete public/index2.html.
+  # just remember to delete public/x2.html.
   # root :to => "welcome#index"
 
   # See how all your routes lay out with "rake routes"
