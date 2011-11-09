@@ -1,14 +1,58 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-  <title>EventCloud</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>EventCloud</title>
   <%= stylesheet_link_tag :all %>
   <%= javascript_include_tag :defaults %>
   <%= csrf_meta_tag %>
+
+  <script type="text/javascript">
+	$(document).ready(function() {
+		$('#coin-slider').coinslider({ width: 190, height:625, navigation: false, delay: 2000 });
+	});
+</script> 
 </head>
 <body>
 
+<div class="container">
+
+<div class="header">
+
+<div class="logo">
+	<label><a class="logo" title="что делать? what can i do" href="#">EventCloud </a></label>
+    </br>
+<p style="text-align:left;"><span>Make your rest in 10 minutes</span></p>
+</div>
+
+<div class="buttons">
+  <a class="button" href="#">
+<span class="icon icon4"></span>
+<span class="label">Sign In</span>
+</a>
+
+<a class="button right" href="">
+<span class="icon icon120"></span>
+<span class="label">Help</span>
+</a>
+</div>
+</br>
+
+<div class="top-menu">
+
+</div>
+  <!-- end .header --></div>
+
 <%= yield %>
+
+
+  <div class="footer">
+   
+    <!-- end .footer --></div>
+  <!-- end .container --></div>
+
+
+
 
 </body>
 </html>
