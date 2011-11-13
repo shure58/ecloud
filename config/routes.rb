@@ -1,6 +1,5 @@
 Ecloud::Application.routes.draw do
 
-    root :to => "home#main"
   get "home/main"
   match "/index" => "home#main"
 
