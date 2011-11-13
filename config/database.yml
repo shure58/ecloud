@@ -32,8 +32,8 @@ production:
   adapter: mysql
   encoding: utf8
   reconnect: false
-  database: ecloud_production
+  database: basa2
   pool: 5
   username: root
-  password:
+  password: 10203040
   host: localhost
