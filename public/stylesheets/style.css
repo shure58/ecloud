@@ -1,0 +1,74 @@
+* {
+margin: 0;
+padding: 0;
+border: 0;
+}
+h1 {
+size:62 px;
+margin: 0;
+padding: 0;
+border: 0;
+}
+
+body {
+padding: 2% 0 0;
+background: #fff;
+color: #333;
+font-family: “Comic Sans MS”, Verdana, Arial, Helvetica, sans-serif;
+}
+
+.container {
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	width: 760px;
+}
+.container .header {
+	height: 158px;
+	width: 760px;
+}
+.container .header .logo {
+	font-family: "Copperplate Gothic Light";
+	font-size: 62px;
+	font-weight: bold;
+	font-variant: normal;
+	text-decoration: none;
+	color: #09F;
+	width: 440px;
+	float: left;
+}
+.container .header .logo p {
+	font-family: "Engravers MT";
+	font-size: 16px;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	color: #333333;
+}
+.container .header .utility {
+	height: 158px;
+	width: 320px;
+	float: right;
+}
+.container .header .buttons {
+	float: none;
+	height: 45px;
+	width: 200px;
+	right: 0px;
+}
+.container .header .utility .search {
+	height: 58px;
+	width: 320px;
+	float: right;
+}
+.container .header .utility .top-but {
+	height: 45px;
+	width: 320px;
+	float: right;
+}
+.container .header .utility .register {
+	height: 55px;
+	float: right;
+	width: 320px;
+}
